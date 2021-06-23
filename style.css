@@ -1,0 +1,59 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+
+
+
+
+header{
+    background-color: rgb(236, 205, 164);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: rgb(0, 0, 0);
+    margin: 60px;
+    text-decoration: none;
+
+}
+
+
+.connect{
+    color: rgb(255, 198, 144);
+    background-color: rgba(172, 44, 44, 0.705);
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.connect:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+button{
+    font-family: 'Comfortaa';
+    color: rgb(253, 204, 161);
+    background-color: rgba(129, 22, 22, 0.658);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+main{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), black), url(moon.jpg); 
+    min-height: 150vh;
+    background-size: cover;
+    color: silver;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1{
+    margin: 0;
+}
+
